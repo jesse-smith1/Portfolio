@@ -5,8 +5,33 @@ body {
   margin: 0;
   padding: 20px;
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: beige;
+}
+
+.github {
+  width: 40px;
+  height: 40px;
+}
+
+.bordered {
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
 }
 
 GitLinkedIn {
   flex-direction: row;
+  background-color: bisque
+}
+
+.magic {
+  width: 40vw;
+  height: 40vh;
+  border-radius: 4px;
+}
+
+.position-left{
+  margin-left: 300px;
 }

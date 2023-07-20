@@ -7,10 +7,8 @@ function App() {
   return (
     <>
       <header className="header">
-        <div className="GitLinkedIn">
-          <GitHub />
-          <Linkedin />
-        </div>
+        <GitHub />
+        <Linkedin />
         <h1>Jesse Smith | Portfolio</h1>
       </header>
       <AboutMe />

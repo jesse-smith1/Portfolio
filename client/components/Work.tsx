@@ -1,7 +1,10 @@
+import Magic from './Magic'
+
 export function Work() {
   return (
     <>
-      <h1>Projects</h1>
+      <h1>Colab Projects</h1>
+      <Magic />
     </>
   )
 }
