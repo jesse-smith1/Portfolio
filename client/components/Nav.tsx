@@ -1,8 +1,10 @@
+import { getLinks } from '../../server/db/db'
+
 export function Nav() {
   return (
     <>
-      <img src="../Public/images/Github.png" alt="GitHub"></img>
-      <img src="../Public/images/Linkedin.png" alt="Linkedin"></img>
+      <p>nothing here yet but this is a Nav</p>
+      <p>{getLinks.id}</p>
     </>
   )
 }
