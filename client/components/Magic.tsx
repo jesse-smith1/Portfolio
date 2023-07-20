@@ -2,6 +2,7 @@ export function Magic() {
   return (
     <>
       <div className="position-left">
+        <h1>Magic Mikes Emporium</h1>
         <img
           src="../../Public/images/Magic.png"
           alt="magic"
