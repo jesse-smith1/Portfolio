@@ -3,6 +3,7 @@ import GitHub from './GitHub'
 import Linkedin from './Linkedin'
 import { Work } from './Work'
 import { AboutMe } from './About'
+import Cv from './Cv'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
 
       </header>
       <AboutMe />
+      <Cv />
       <Work />
       <section className="main">{/* add your code here */}</section>
     </>
