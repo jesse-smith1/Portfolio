@@ -35,3 +35,11 @@ GitLinkedIn {
 .position-left{
   margin-left: 300px;
 }
+
+.Esc {
+  justify-content: space-around;
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  
+}
