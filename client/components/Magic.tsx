@@ -17,6 +17,22 @@ export function Magic() {
           <br></br>
           ChatGPTs API then sends back your personal horoscope.
         </p>
+        <br></br>
+        <p>
+          In this project we have used:
+          <ul>
+            <li>Javascript</li>
+            <li>CORS API</li>
+            <li>Figma</li>
+            <li>Typescript</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Routes frontend and backend</li>
+            <li>database</li>
+            <li>SQLite3</li>
+            <li>Knex Migrations and Seeds</li>
+          </ul>
+        </p>
       </div>
     </>
   )
