@@ -3,7 +3,11 @@ export function Magic() {
     <>
       <div className="position-left">
         <h1>Magic Mikes Emporium</h1>
-        <img src="../images/Magicmike.png" alt="magic" className="magic"></img>
+        <img
+          src="../client/styles/images/Magicmike.png"
+          alt="magic"
+          className="magic"
+        ></img>
         <p>
           This was a fun little project that I first worked on with 3 other
           students at Dev Academy.
@@ -28,6 +32,10 @@ export function Magic() {
             <li>SQLite3</li>
             <li>Knex Migrations and Seeds</li>
           </ul>
+          <br></br>
+          <a href="https://github.com/jesse-smith1/Magic-Group-Project">
+            View Source Code
+          </a>
         </p>
       </div>
     </>

@@ -32,6 +32,8 @@ export function Esc() {
             <li>Database</li>
             <li>Knex Migrations / Seeds</li>
           </ul>
+          <br></br>
+          <a href="https://github.com/jesse-smith1/Esc">View Source Code</a>
         </p>
       </div>
     </>
