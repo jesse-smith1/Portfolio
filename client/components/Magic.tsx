@@ -3,7 +3,11 @@ export function Magic() {
     <>
       <div className="position-left">
         <h1>Magic Mikes Emporium</h1>
-        <img src="/images/Magicmike.png" alt="magic" className="magic"></img>
+        <img
+          src="../client/styles/images/Magicmike.png"
+          alt="magic"
+          className="magic"
+        ></img>
         <p>
           This was a fun little project that I first worked on with 3 other
           students at Dev Academy.
