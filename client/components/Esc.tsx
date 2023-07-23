@@ -4,12 +4,12 @@ export function Esc() {
       <div className="position-left">
         <h1>Escape Room</h1>
         <div className="Esc">
-          <img src="/images/Esc1.png" alt="Esc1"></img>
-          <img src="/images/Esc2.png" alt="Esc2"></img>
+          <img src="../client/styles/images/Esc1.png" alt="Esc1"></img>
+          <img src="../client/styles/images/Esc2.png" alt="Esc2"></img>
         </div>
         <div className="Esc">
-          <img src="/images/Esc3.png" alt="Esc3"></img>
-          <img src="/images/Esc4.png" alt="Esc4"></img>
+          <img src="../client/styles/images/Esc3.png" alt="Esc3"></img>
+          <img src="../client/styles/images/Esc4.png" alt="Esc4"></img>
         </div>
         <p>
           Our Escape Room project is a game where you start in an undisclosed
