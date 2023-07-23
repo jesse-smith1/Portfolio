@@ -6,6 +6,6 @@ const server = express()
 
 server.use(express.json())
 server.use('/api/v1/links', links)
-server.use(express.static(path.join(__dirname, 'Public')))
+server.use(express.static(path.join(__dirname, 'public')))
 
 export default server
