@@ -8,12 +8,12 @@ exports.seed = async function (knex) {
   await knex('links').insert([
     {
       id: 1,
-      image: '../Public/images/Github.png',
+      image: '../client/images/Github.png',
       link: 'https://github.com/jesse-smith1',
     },
     {
       id: 2,
-      image: '../Public/images/Linkedin.png',
+      image: '../client/images/Linkedin.png',
       link: 'www.linkedin.com/in/jesse-ta-smith',
     },
   ])
