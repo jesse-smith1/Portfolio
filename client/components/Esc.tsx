@@ -5,11 +5,11 @@ export function Esc() {
         <h1>Escape Room</h1>
         <div className="Esc">
           <img src="../public/images/Esc1.png" alt="Esc1" />
-          <img src="../public/images/Esc2.png" alt="Esc2" />
+          <img src="../images/Esc2.png" alt="Esc2" />
         </div>
         <div className="Esc">
-          <img src="./public/images/Esc3.png" alt="Esc3" />
-          <img src="./public/images/Esc4.png" alt="Esc4" />
+          <img src="./images/Esc3.png" alt="Esc3" />
+          <img src="images/Esc4.png" alt="Esc4" />
         </div>
         <p>
           Our Escape Room project is a game where you start in an undisclosed
