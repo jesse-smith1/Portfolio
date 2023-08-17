@@ -1,22 +1,21 @@
+import Linkedin from './Linkedin'
+import GitHub from './GitHub'
+import Cv from './Cv'
+
 function Nav() {
   return (
     <>
       <div className="container">
         <div className="navbar">
-          <a href="https://www.linkedin.com/in/jesse-ta-smith/">
-            <img
-              src="/images/Linkedin.png"
-              className="LinkedIn"
-              alt="LinkedIn"
-            ></img>
-          </a>
-          <a href="https://github.com/jesse-smith1">
-            <img src="/images/Github.png" className="Github" alt="GitHub"></img>
-          </a>
+          <Linkedin />
+          <GitHub />
           <nav>
             <ul>
               <li>
                 <a href="https://esc.pushed.nz/">Escape Room</a>
+              </li>
+              <li>
+                <Cv />
               </li>
             </ul>
           </nav>
