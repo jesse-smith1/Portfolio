@@ -34,6 +34,10 @@ export function Esc() {
           </ul>
           <br></br>
           <a href="https://github.com/jesse-smith1/Esc">View Source Code</a>
+          <br></br>
+          <p>
+            To play this game <a href="https://esc.pushed.nz/">click here</a>
+          </p>
         </p>
       </div>
     </>
