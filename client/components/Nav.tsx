@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function Nav() {
   return (
     <>
@@ -23,6 +24,13 @@ function Nav() {
           <img src="/images/menu.png" className="menuIcon" alt="MenuIcon"></img>
         </div>
       </div>
+=======
+export function Nav() {
+  return (
+    <>
+      <img src="../Public/images/Github.png" alt="GitHub"></img>
+      <img src="../Public/images/Linkedin.png" alt="Linkedin"></img>
+>>>>>>> 621d73c101e4d95660e62d77362e791b6e4106f7
     </>
   )
 }
