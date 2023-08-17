@@ -1,7 +1,7 @@
 import Magic from './Magic'
 import Esc from './Esc'
 
-export function Work() {
+export default function Work() {
   return (
     <>
       <Esc />
