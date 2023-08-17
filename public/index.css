@@ -1,29 +1,6 @@
-body {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 20px;
-  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif; 
   background-color: beige;
-}
-
-.github {
-  width: 40px;
-  height: 40px;
-}
-
-.bordered {
-  border: 1px solid black;
-  border-radius: 3px;
-  margin-left: 10px;
-  width: 40px;
-  height: 40px;
-}
-
-GitLinkedIn {
-  flex-direction: row;
-  background-color: bisque
 }
 
 .magic {
@@ -42,4 +19,57 @@ GitLinkedIn {
   gap: 10px;
   margin: 10px;
   
+} 
+
+.container {
+  width: 100%;
+  /* min-height: 100vh; */
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.navbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.Github{
+  width: 50px;
+  cursor: pointer;
+  margin: 30px 0;
+}
+
+.LinkedIn{
+  width: 80px;
+  cursor: pointer;
+  margin: 30px 0;
+}
+
+.menuIcon{
+  width: 40px;
+  cursor: pointer;
+}
+
+nav{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+
+nav ul li a:hover{
+  color: #0591AF
 }

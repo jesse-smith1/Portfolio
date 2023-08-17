@@ -1,8 +1,28 @@
-export function Nav() {
+
+import Linkedin from './Linkedin'
+import GitHub from './GitHub'
+import Cv from './Cv'
+
+function Nav() {
   return (
     <>
-      <img src="../Public/images/Github.png" alt="GitHub"></img>
-      <img src="../Public/images/Linkedin.png" alt="Linkedin"></img>
+      <div className="container">
+        <div className="navbar">
+          <Linkedin />
+          <GitHub />
+          <nav>
+            <ul>
+              <li>
+                <a href="https://esc.pushed.nz/">Escape Room</a>
+              </li>
+              <li>
+                <Cv />
+              </li>
+            </ul>
+          </nav>
+          <img src="/images/menu.png" className="menuIcon" alt="MenuIcon"></img>
+        </div>
+      </div>
     </>
   )
 }
