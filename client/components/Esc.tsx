@@ -3,10 +3,10 @@ export function Esc() {
     <>
       <div>
         <h1>Escape Room</h1>
-        <img src="./images/Esc1.png" alt="Esc1" />
-        <img src="./images/Esc2.png" alt="Esc2" />
-        <img src="./images/Esc3.png" alt="Esc3" />
-        <img src="./images/Esc4.png" alt="Esc4" />
+        <img src="./images/Esc1.png" alt="Esc1" className="responsive" />
+        <img src="./images/Esc2.png" alt="Esc2" className="responsive" />
+        <img src="./images/Esc3.png" alt="Esc3" className="responsive" />
+        <img src="./images/Esc4.png" alt="Esc4" className="responsive" />
         <p>
           Our Escape Room project is a game where you start in an undisclosed
           area, you are met with 5 different games. You must complete each task
