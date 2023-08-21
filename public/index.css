@@ -51,6 +51,7 @@
 .menuIcon{
   width: 40px;
   cursor: pointer;
+  display: none;
 }
 
 nav{
@@ -78,11 +79,21 @@ nav ul li a:hover{
 {
   nav ul{
     width: 100%;
-    background:beige;
+    background:orange;
     position: absolute;
     top: 80px;
     right: 0;
     z-index: 2;
-
+  }
+  nav ul li {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  nav ul li a{
+color:black;
+  }
+  .menuIcon{
+    display: block;
   }
 }

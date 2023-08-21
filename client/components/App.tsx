@@ -6,10 +6,12 @@ import Header from './Header'
 function App() {
   return (
     <>
-      <Nav />
-      <Header />
-      <AboutMe />
-      <Work />
+      <div className="container">
+        <Nav />
+        <Header />
+        <AboutMe />
+        <Work />
+      </div>
     </>
   )
 }
