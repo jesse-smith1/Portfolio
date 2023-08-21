@@ -1,7 +1,7 @@
 export function Esc() {
   return (
     <>
-      <div className="container">
+      <div>
         <h1>Escape Room</h1>
         <img src="./images/Esc1.png" alt="Esc1" />
         <img src="./images/Esc2.png" alt="Esc2" />

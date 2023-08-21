@@ -1,4 +1,3 @@
-
 import Linkedin from './Linkedin'
 import GitHub from './GitHub'
 import Cv from './Cv'
@@ -6,7 +5,7 @@ import Cv from './Cv'
 function Nav() {
   return (
     <>
-      <div className="container">
+      <div>
         <div className="navbar">
           <Linkedin />
           <GitHub />
