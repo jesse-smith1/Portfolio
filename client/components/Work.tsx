@@ -5,7 +5,6 @@ export default function Work() {
   return (
     <>
       <Esc />
-      <Magic />
     </>
   )
 }

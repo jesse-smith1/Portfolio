@@ -3,23 +3,6 @@
   background-color: beige;
 }
 
-.magic {
-  width: 40vw;
-  height: 40vh;
-  border-radius: 4px;
-}
-
-.position-left{
-  margin-left: 300px;
-}
-
-.Esc {
-  justify-content: space-around;
-  display: flex;
-  gap: 10px;
-  margin: 10px;
-  
-} 
 
 .container {
   width: 100%;
@@ -78,12 +61,15 @@ nav ul li a:hover{
 @media only screen and (max-width:700px)
 {
   nav ul{
-    width: 100%;
-    background:orange;
+    width: 20%;
+    background:darkolivegreen;
     position: absolute;
     top: 80px;
     right: 0;
     z-index: 2;
+    margin-right: 30px;
+    border-radius: 8%;
+    text-align: center;
   }
   nav ul li {
     display: block;
