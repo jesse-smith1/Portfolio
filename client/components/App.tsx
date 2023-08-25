@@ -2,6 +2,7 @@ import Work from './Work'
 import { AboutMe } from './About'
 import Nav from './Nav'
 import Header from './Header'
+import WorkInProgress from './WorkInProgress'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <AboutMe />
         <Work />
+        <WorkInProgress />
       </div>
     </>
   )
