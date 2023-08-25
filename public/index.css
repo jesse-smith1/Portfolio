@@ -61,15 +61,8 @@ nav ul li a:hover{
 @media only screen and (max-width:700px)
 {
   nav ul{
-    width: 20%;
-    background:darkolivegreen;
-    position: absolute;
-    top: 80px;
-    right: 0;
-    z-index: 2;
-    margin-right: 30px;
-    border-radius: 8%;
-    text-align: center;
+    flex: 1;
+    text-align: right;
   }
   nav ul li {
     display: block;
@@ -78,9 +71,6 @@ nav ul li a:hover{
   }
   nav ul li a{
 color:black;
-  }
-  .menuIcon{
-    display: block;
   }
   .responsive {
     width: 100%;
