@@ -19,7 +19,6 @@ function Nav() {
               </li>
             </ul>
           </nav>
-          <img src="/images/menu.png" className="menuIcon" alt="MenuIcon"></img>
         </div>
       </div>
     </>
