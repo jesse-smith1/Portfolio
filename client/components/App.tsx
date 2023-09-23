@@ -3,6 +3,7 @@ import { AboutMe } from './About'
 import Nav from './Nav'
 import Header from './Header'
 import WorkInProgress from './WorkInProgress'
+import Platformer from './Platformer'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <AboutMe />
         <Work />
         <WorkInProgress />
+        <Platformer />
       </div>
     </>
   )
