@@ -3,10 +3,22 @@
   background-color: beige;
 }
 
+.resize{
+  max-width: 80%;
+  max-height: 70%;
+}
+
+.align-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 10px 10px 10px;
+}
 
 .container {
   width: 100%;
-  /* min-height: 100vh; */
+  min-height: 100vh;
   padding-left: 8%;
   padding-right: 8%;
   box-sizing: border-box;
