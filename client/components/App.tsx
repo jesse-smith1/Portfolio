@@ -8,14 +8,14 @@ import Platformer from './Platformer'
 function App() {
   return (
     <>
-      <div className="container">
-        <Nav />
-        <Header />
-        <AboutMe />
-        <Work />
-        <WorkInProgress />
-        <Platformer />
-      </div>
+      {/* <div className="container"> */}
+      <Nav />
+      <Header />
+      <AboutMe />
+      <Work />
+      <WorkInProgress />
+      <Platformer />
+      {/* </div> */}
     </>
   )
 }

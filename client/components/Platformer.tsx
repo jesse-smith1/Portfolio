@@ -1,9 +1,9 @@
 export function Platformer() {
   return (
     <>
-      <div>
+      <div className="container">
         <h1>2D Platformer</h1>
-        <div>
+        <div className="container-image">
           <img
             src="./images/2DPlatformer.png"
             alt="Platformer"

@@ -5,7 +5,7 @@ import Cv from './Cv'
 function Nav() {
   return (
     <>
-      <div>
+      <div className="container">
         <div className="navbar">
           <Linkedin />
           <GitHub />
