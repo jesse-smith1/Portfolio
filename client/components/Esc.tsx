@@ -12,10 +12,10 @@ export function Esc() {
         <p>
           Our Escape Room project is a game where you start in an undisclosed
           area, you are met with 5 different games. You must complete each task
-          in order to escape. Currently the sudoku game has only one passcode to
+          in order to escape. Currently the Wordle game has only one passcode to
           progress to the next level, I would next like to connect this to a
           dictionary API so that the passcode will change every time you play
-          and unfortunately as it stands this game is not responsive.
+          and unfortunately as it stands this game is not responsive YET.
         </p>
         <br></br>
         <p>
