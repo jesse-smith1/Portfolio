@@ -1,7 +1,7 @@
 export function AboutMe() {
   return (
     <>
-      <div>
+      <div className="container">
         <h1>About Me</h1>
         <p>
           Hello, my name is Jesse. I have started this new journey to code
